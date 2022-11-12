@@ -6,7 +6,7 @@ import org.bukkit.event.inventory.InventoryClickEvent
 
 interface GuiEvents : Listener {
 
-    val registeredGUIs: List<Gui<PluginInventoryHolder>>
+    val registeredGUIs: List<Gui<out PluginInventoryHolder>>
 
     @EventHandler(ignoreCancelled = true)
     fun on(event: InventoryClickEvent) {
