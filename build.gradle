@@ -41,6 +41,14 @@ tasks.withType(JavaCompile).configureEach {
     }
 }
 
+dokkaHtml.configure {
+    dokkaSourceSets {
+        configureEach {
+            includes.from("dokka-index.md")
+        }
+    }
+}
+
 publishing {
     repositories {
         maven {

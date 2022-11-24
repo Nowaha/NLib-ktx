@@ -25,8 +25,8 @@ interface Gui<T : PluginInventoryHolder> {
 
     /**
      * This method will be called to figure out what the title of a GUI should be.
-     * The easiest implementation is as follows:
-     * override fun getTitle() = "Inventory Title"
+     * The easiest implementation is as follows:\
+     * `override fun getTitle() = "Inventory Title"`
      */
     fun getTitle(): String
 
