@@ -1,4 +1,4 @@
-# NLib-ktx
+# NLib-ktx <img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/nowaha/nlib-ktx/Gradle%20Package"> <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/nowaha/nlib-ktx?display_name=tag">
 
 The Kotlin-specific functionalities from my library, NLib. This should be used together with [the Java version](https://github.com/Nowaha/NLib) to have a full library.
 
