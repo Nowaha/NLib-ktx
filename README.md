@@ -29,12 +29,10 @@ repositories {
 
 ```groovy
 dependencies {
-  implementation('xyz.nowaha:nlib-ktx:<latest version>') {
-        exclude group: 'org.jetbrains.kotlin', module: 'kotlin-stdlib-jdk8'
-    }
+  implementation('xyz.nowaha:nlib-ktx:<latest version>')
 }
 ```
-
+*Note: For the version, do not include the "v" - only put the number (i.e. 1.0.4)
 For the `PasswordCredentials` to be filled in properly, you need to add to your `gradle.properties`
 ```groovy
 nlibktxUsername=<username>
