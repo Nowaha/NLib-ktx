@@ -1,4 +1,4 @@
-# NLib-ktx <a href="https://github.com/Nowaha/NLib-ktx/releases/"><img alt="GitHub Workflow Status" src="https://img.shields.io/github/actions/workflow/status/nowaha/nlib-ktx/gradle-publish.yml?branch=main"></a> <a href="https://github.com/Nowaha/NLib-ktx/packages/1712122"><img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/nowaha/nlib-ktx?display_name=tag"></a>
+# NLib-ktx <a href="https://github.com/Nowaha/NLib-ktx/releases/"><img alt="GitHub Workflow Status" src="https://img.shields.io/github/actions/workflow/status/nowaha/nlib-ktx/gradle-publish.yml?branch=master"></a> <a href="https://github.com/Nowaha/NLib-ktx/packages/1712122"><img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/nowaha/nlib-ktx?display_name=tag"></a>
 
 The Kotlin-specific functionalities from my library, NLib. This should be used together with [the Java version](https://github.com/Nowaha/NLib) to have a full library.
 
